@@ -66,7 +66,7 @@
             // 
             // TxtOgrAd
             // 
-            this.TxtOgrAd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TxtOgrAd.BackColor = System.Drawing.Color.LavenderBlush;
             this.TxtOgrAd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOgrAd.Location = new System.Drawing.Point(247, 23);
             this.TxtOgrAd.Margin = new System.Windows.Forms.Padding(4);
@@ -76,7 +76,7 @@
             // 
             // TxtOgrSoyad
             // 
-            this.TxtOgrSoyad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TxtOgrSoyad.BackColor = System.Drawing.Color.LavenderBlush;
             this.TxtOgrSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOgrSoyad.Location = new System.Drawing.Point(247, 60);
             this.TxtOgrSoyad.Margin = new System.Windows.Forms.Padding(4);
@@ -109,7 +109,7 @@
             // 
             // MskTC
             // 
-            this.MskTC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.MskTC.BackColor = System.Drawing.Color.LavenderBlush;
             this.MskTC.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MskTC.Location = new System.Drawing.Point(247, 98);
             this.MskTC.Margin = new System.Windows.Forms.Padding(4);
@@ -120,7 +120,7 @@
             // 
             // MskOgrTelefon
             // 
-            this.MskOgrTelefon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.MskOgrTelefon.BackColor = System.Drawing.Color.LavenderBlush;
             this.MskOgrTelefon.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MskOgrTelefon.Location = new System.Drawing.Point(247, 138);
             this.MskOgrTelefon.Margin = new System.Windows.Forms.Padding(4);
@@ -142,7 +142,7 @@
             // 
             // MskDogum
             // 
-            this.MskDogum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.MskDogum.BackColor = System.Drawing.Color.LavenderBlush;
             this.MskDogum.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MskDogum.Location = new System.Drawing.Point(247, 178);
             this.MskDogum.Margin = new System.Windows.Forms.Padding(4);
@@ -176,7 +176,7 @@
             // 
             // CmbBolum
             // 
-            this.CmbBolum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.CmbBolum.BackColor = System.Drawing.Color.LavenderBlush;
             this.CmbBolum.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CmbBolum.FormattingEnabled = true;
             this.CmbBolum.Location = new System.Drawing.Point(247, 216);
@@ -187,7 +187,7 @@
             // 
             // TxtMail
             // 
-            this.TxtMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TxtMail.BackColor = System.Drawing.Color.LavenderBlush;
             this.TxtMail.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtMail.Location = new System.Drawing.Point(247, 256);
             this.TxtMail.Margin = new System.Windows.Forms.Padding(4);
@@ -208,7 +208,7 @@
             // 
             // CmbOdaNo
             // 
-            this.CmbOdaNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.CmbOdaNo.BackColor = System.Drawing.Color.LavenderBlush;
             this.CmbOdaNo.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.CmbOdaNo.FormattingEnabled = true;
             this.CmbOdaNo.Location = new System.Drawing.Point(247, 297);
@@ -230,7 +230,7 @@
             // 
             // TxtVeliAdSoyad
             // 
-            this.TxtVeliAdSoyad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TxtVeliAdSoyad.BackColor = System.Drawing.Color.LavenderBlush;
             this.TxtVeliAdSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtVeliAdSoyad.Location = new System.Drawing.Point(247, 338);
             this.TxtVeliAdSoyad.Margin = new System.Windows.Forms.Padding(4);
@@ -251,7 +251,7 @@
             // 
             // MskVeliTelefon
             // 
-            this.MskVeliTelefon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.MskVeliTelefon.BackColor = System.Drawing.Color.LavenderBlush;
             this.MskVeliTelefon.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.MskVeliTelefon.Location = new System.Drawing.Point(247, 378);
             this.MskVeliTelefon.Margin = new System.Windows.Forms.Padding(4);
@@ -284,7 +284,7 @@
             // 
             // RchAdres
             // 
-            this.RchAdres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RchAdres.BackColor = System.Drawing.Color.LavenderBlush;
             this.RchAdres.Location = new System.Drawing.Point(247, 419);
             this.RchAdres.Margin = new System.Windows.Forms.Padding(4);
             this.RchAdres.Name = "RchAdres";
@@ -300,12 +300,13 @@
             this.BtnKaydet.TabIndex = 23;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
+            this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // FrmOgrKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(711, 683);
             this.Controls.Add(this.BtnKaydet);
             this.Controls.Add(this.RchAdres);

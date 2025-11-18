@@ -8,3 +8,4 @@ C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayit
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.exe
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.pdb
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmOgrKayit.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmBolumler.resources
