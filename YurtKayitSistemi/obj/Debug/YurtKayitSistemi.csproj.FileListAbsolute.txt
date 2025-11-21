@@ -9,3 +9,4 @@ C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayit
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.pdb
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmOgrKayit.resources
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmBolumler.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmAnaForm.resources

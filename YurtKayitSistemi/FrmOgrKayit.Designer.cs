@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOgrKayit));
             this.label1 = new System.Windows.Forms.Label();
             this.TxtOgrAd = new System.Windows.Forms.TextBox();
             this.TxtOgrSoyad = new System.Windows.Forms.TextBox();
@@ -83,7 +84,6 @@
             this.TxtOgrSoyad.Name = "TxtOgrSoyad";
             this.TxtOgrSoyad.Size = new System.Drawing.Size(374, 30);
             this.TxtOgrSoyad.TabIndex = 3;
-            this.TxtOgrSoyad.TextChanged += new System.EventHandler(this.txtOgrSoyad_TextChanged);
             // 
             // label2
             // 
@@ -332,7 +332,10 @@
             this.Controls.Add(this.TxtOgrAd);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmOgrKayit";
             this.Text = "Öğrenci Kayıt";
             this.Load += new System.EventHandler(this.FrmOgrKayit_Load);
