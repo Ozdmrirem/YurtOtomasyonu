@@ -59,19 +59,20 @@
             this.hakkımızdaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.çıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.yurtKayitDataSet1 = new YurtKayitSistemi.YurtKayitDataSet1();
-            this.ogrenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ogrenciTableAdapter = new YurtKayitSistemi.YurtKayitDataSet1TableAdapters.OgrenciTableAdapter();
             this.ogridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrSoyadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrOdaNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ogrenciBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.yurtKayitDataSet1 = new YurtKayitSistemi.YurtKayitDataSet1();
+            this.ogrenciTableAdapter = new YurtKayitSistemi.YurtKayitDataSet1TableAdapters.OgrenciTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ogrenciBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -132,13 +133,13 @@
             // bölümEkleToolStripMenuItem
             // 
             this.bölümEkleToolStripMenuItem.Name = "bölümEkleToolStripMenuItem";
-            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.bölümEkleToolStripMenuItem.Text = "Bölüm Ekle";
             // 
             // bölümDüzenleToolStripMenuItem
             // 
             this.bölümDüzenleToolStripMenuItem.Name = "bölümDüzenleToolStripMenuItem";
-            this.bölümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.bölümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.bölümDüzenleToolStripMenuItem.Text = "Bölüm Düzenle";
             // 
             // ödemelerToolStripMenuItem
@@ -152,7 +153,7 @@
             // ödemeAlToolStripMenuItem
             // 
             this.ödemeAlToolStripMenuItem.Name = "ödemeAlToolStripMenuItem";
-            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(178, 30);
             this.ödemeAlToolStripMenuItem.Text = "Ödeme Al";
             // 
             // giderlerToolStripMenuItem
@@ -167,13 +168,13 @@
             // giderEkleToolStripMenuItem
             // 
             this.giderEkleToolStripMenuItem.Name = "giderEkleToolStripMenuItem";
-            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(192, 30);
             this.giderEkleToolStripMenuItem.Text = "Gider Ekle";
             // 
             // giderİstatistikleriToolStripMenuItem
             // 
             this.giderİstatistikleriToolStripMenuItem.Name = "giderİstatistikleriToolStripMenuItem";
-            this.giderİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.giderİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(192, 30);
             this.giderİstatistikleriToolStripMenuItem.Text = "Gider Listesi";
             // 
             // istatistiklerToolStripMenuItem
@@ -233,13 +234,13 @@
             // hesapMakinesiToolStripMenuItem
             // 
             this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
-            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.hesapMakinesiToolStripMenuItem.Text = "Hesap Makinesi";
             // 
             // paintToolStripMenuItem
             // 
             this.paintToolStripMenuItem.Name = "paintToolStripMenuItem";
-            this.paintToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.paintToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.paintToolStripMenuItem.Text = "Paint";
             // 
             // radyolarToolStripMenuItem
@@ -249,37 +250,37 @@
             this.radyo2ToolStripMenuItem,
             this.radyo3ToolStripMenuItem});
             this.radyolarToolStripMenuItem.Name = "radyolarToolStripMenuItem";
-            this.radyolarToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyolarToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.radyolarToolStripMenuItem.Text = "Radyolar";
             // 
             // radyo1ToolStripMenuItem
             // 
             this.radyo1ToolStripMenuItem.Name = "radyo1ToolStripMenuItem";
-            this.radyo1ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo1ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo1ToolStripMenuItem.Text = "Radyo 1 ";
             // 
             // radyo2ToolStripMenuItem
             // 
             this.radyo2ToolStripMenuItem.Name = "radyo2ToolStripMenuItem";
-            this.radyo2ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo2ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo2ToolStripMenuItem.Text = "Radyo 2";
             // 
             // radyo3ToolStripMenuItem
             // 
             this.radyo3ToolStripMenuItem.Name = "radyo3ToolStripMenuItem";
-            this.radyo3ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo3ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo3ToolStripMenuItem.Text = "Radyo 3";
             // 
             // hakkımızdaToolStripMenuItem
             // 
             this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.hakkımızdaToolStripMenuItem.Text = "Hakkımızda";
             // 
             // çıkışToolStripMenuItem
             // 
             this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.çıkışToolStripMenuItem.Text = "Çıkış";
             // 
             // dataGridView1
@@ -292,26 +293,12 @@
             this.ogrSoyadDataGridViewTextBoxColumn,
             this.ogrOdaNoDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.ogrenciBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 36);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 33);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(553, 473);
+            this.dataGridView1.Size = new System.Drawing.Size(553, 423);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // yurtKayitDataSet1
-            // 
-            this.yurtKayitDataSet1.DataSetName = "YurtKayitDataSet1";
-            this.yurtKayitDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // ogrenciBindingSource
-            // 
-            this.ogrenciBindingSource.DataMember = "Ogrenci";
-            this.ogrenciBindingSource.DataSource = this.yurtKayitDataSet1;
-            // 
-            // ogrenciTableAdapter
-            // 
-            this.ogrenciTableAdapter.ClearBeforeFill = true;
             // 
             // ogridDataGridViewTextBoxColumn
             // 
@@ -346,11 +333,25 @@
             this.ogrOdaNoDataGridViewTextBoxColumn.Name = "ogrOdaNoDataGridViewTextBoxColumn";
             this.ogrOdaNoDataGridViewTextBoxColumn.Width = 125;
             // 
+            // ogrenciBindingSource
+            // 
+            this.ogrenciBindingSource.DataMember = "Ogrenci";
+            this.ogrenciBindingSource.DataSource = this.yurtKayitDataSet1;
+            // 
+            // yurtKayitDataSet1
+            // 
+            this.yurtKayitDataSet1.DataSetName = "YurtKayitDataSet1";
+            this.yurtKayitDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // ogrenciTableAdapter
+            // 
+            this.ogrenciTableAdapter.ClearBeforeFill = true;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(635, 139);
+            this.label1.Location = new System.Drawing.Point(601, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(62, 24);
             this.label1.TabIndex = 2;
@@ -360,22 +361,28 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(667, 168);
+            this.label2.Location = new System.Drawing.Point(633, 95);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "label2";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FrmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(889, 509);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(889, 456);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -386,8 +393,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ogrenciBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -433,5 +440,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ogrOdaNoDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

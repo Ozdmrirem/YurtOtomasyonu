@@ -21,7 +21,14 @@ namespace YurtKayitSistemi
         {
             // TODO: This line of code loads data into the 'yurtKayitDataSet1.Ogrenci' table. You can move, or remove it, as needed.
             this.ogrenciTableAdapter.Fill(this.yurtKayitDataSet1.Ogrenci);
+            timer1.Start();
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongDateString();
+            label2.Text = DateTime.Now.ToLongTimeString();
         }
     }
 }
