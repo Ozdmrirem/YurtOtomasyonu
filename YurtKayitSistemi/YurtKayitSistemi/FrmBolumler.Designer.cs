@@ -187,6 +187,7 @@
             this.Controls.Add(this.PcbBolumEkle);
             this.Controls.Add(this.PcbBolumSil);
             this.Controls.Add(this.PcbBolumDuzenle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmBolumler";

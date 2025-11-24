@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOgrKayit));
             this.label1 = new System.Windows.Forms.Label();
-            this.TxtOgrAd = new System.Windows.Forms.TextBox();
-            this.TxtOgrSoyad = new System.Windows.Forms.TextBox();
+            this.txtOgrAd = new System.Windows.Forms.TextBox();
+            this.txtOgrSoyad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.MskTC = new System.Windows.Forms.MaskedTextBox();
@@ -51,6 +52,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.RchAdres = new System.Windows.Forms.RichTextBox();
             this.BtnKaydet = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -66,24 +68,23 @@
             // 
             // TxtOgrAd
             // 
-            this.TxtOgrAd.BackColor = System.Drawing.Color.LavenderBlush;
-            this.TxtOgrAd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtOgrAd.Location = new System.Drawing.Point(247, 23);
-            this.TxtOgrAd.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtOgrAd.Name = "TxtOgrAd";
-            this.TxtOgrAd.Size = new System.Drawing.Size(374, 30);
-            this.TxtOgrAd.TabIndex = 1;
+            this.txtOgrAd.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txtOgrAd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtOgrAd.Location = new System.Drawing.Point(247, 23);
+            this.txtOgrAd.Margin = new System.Windows.Forms.Padding(4);
+            this.txtOgrAd.Name = "TxtOgrAd";
+            this.txtOgrAd.Size = new System.Drawing.Size(374, 30);
+            this.txtOgrAd.TabIndex = 1;
             // 
             // TxtOgrSoyad
             // 
-            this.TxtOgrSoyad.BackColor = System.Drawing.Color.LavenderBlush;
-            this.TxtOgrSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtOgrSoyad.Location = new System.Drawing.Point(247, 60);
-            this.TxtOgrSoyad.Margin = new System.Windows.Forms.Padding(4);
-            this.TxtOgrSoyad.Name = "TxtOgrSoyad";
-            this.TxtOgrSoyad.Size = new System.Drawing.Size(374, 30);
-            this.TxtOgrSoyad.TabIndex = 3;
-            this.TxtOgrSoyad.TextChanged += new System.EventHandler(this.txtOgrSoyad_TextChanged);
+            this.txtOgrSoyad.BackColor = System.Drawing.Color.LavenderBlush;
+            this.txtOgrSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtOgrSoyad.Location = new System.Drawing.Point(247, 60);
+            this.txtOgrSoyad.Margin = new System.Windows.Forms.Padding(4);
+            this.txtOgrSoyad.Name = "TxtOgrSoyad";
+            this.txtOgrSoyad.Size = new System.Drawing.Size(374, 30);
+            this.txtOgrSoyad.TabIndex = 3;
             // 
             // label2
             // 
@@ -302,12 +303,23 @@
             this.BtnKaydet.UseVisualStyleBackColor = true;
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(109, 485);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(73, 24);
+            this.label12.TabIndex = 24;
+            this.label12.Text = "label12";
+            this.label12.Visible = false;
+            // 
             // FrmOgrKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(711, 683);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.BtnKaydet);
             this.Controls.Add(this.RchAdres);
             this.Controls.Add(this.label11);
@@ -327,12 +339,15 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.MskTC);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.TxtOgrSoyad);
+            this.Controls.Add(this.txtOgrSoyad);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtOgrAd);
+            this.Controls.Add(this.txtOgrAd);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmOgrKayit";
             this.Text = "Öğrenci Kayıt";
             this.Load += new System.EventHandler(this.FrmOgrKayit_Load);
@@ -344,8 +359,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox TxtOgrAd;
-        private System.Windows.Forms.TextBox TxtOgrSoyad;
+        private System.Windows.Forms.TextBox txtOgrAd;
+        private System.Windows.Forms.TextBox txtOgrSoyad;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MaskedTextBox MskTC;
@@ -366,6 +381,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.RichTextBox RchAdres;
         private System.Windows.Forms.Button BtnKaydet;
+        private System.Windows.Forms.Label label12;
     }
 }
 
