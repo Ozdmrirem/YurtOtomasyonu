@@ -15,3 +15,4 @@ C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayit
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmOgrDuzenle.resources
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGider.resources
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGiderListesi.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGiderGuncelle.resources
