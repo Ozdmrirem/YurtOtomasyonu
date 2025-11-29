@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOdemeler));
             this.label1 = new System.Windows.Forms.Label();
             this.TxtOgrid = new System.Windows.Forms.TextBox();
@@ -38,20 +40,22 @@
             this.label3 = new System.Windows.Forms.Label();
             this.BtnOdemeAl = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.yurtKayitDataSet2 = new YurtKayitSistemi.YurtKayitDataSet2();
-            this.borclarBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.borclarTableAdapter = new YurtKayitSistemi.YurtKayitDataSet2TableAdapters.BorclarTableAdapter();
             this.ogridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrAdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrSoyadDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ogrKalanBorcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.borclarBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.yurtKayitDataSet2 = new YurtKayitSistemi.YurtKayitDataSet2();
+            this.borclarTableAdapter = new YurtKayitSistemi.YurtKayitDataSet2TableAdapters.BorclarTableAdapter();
             this.TxtKalan = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.TxtOdenen = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtOdenenAy = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.borclarBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,7 +73,7 @@
             // 
             this.TxtOgrid.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOgrid.Location = new System.Drawing.Point(124, 18);
-            this.TxtOgrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrid.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrid.Name = "TxtOgrid";
             this.TxtOgrid.Size = new System.Drawing.Size(240, 30);
             this.TxtOgrid.TabIndex = 1;
@@ -78,7 +82,7 @@
             // 
             this.TxtAd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtAd.Location = new System.Drawing.Point(124, 53);
-            this.TxtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAd.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAd.Name = "TxtAd";
             this.TxtAd.Size = new System.Drawing.Size(240, 30);
             this.TxtAd.TabIndex = 3;
@@ -98,7 +102,7 @@
             // 
             this.TxtSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtSoyad.Location = new System.Drawing.Point(124, 91);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(240, 30);
             this.TxtSoyad.TabIndex = 5;
@@ -117,8 +121,8 @@
             // BtnOdemeAl
             // 
             this.BtnOdemeAl.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnOdemeAl.Location = new System.Drawing.Point(152, 214);
-            this.BtnOdemeAl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnOdemeAl.Location = new System.Drawing.Point(148, 267);
+            this.BtnOdemeAl.Margin = new System.Windows.Forms.Padding(4);
             this.BtnOdemeAl.Name = "BtnOdemeAl";
             this.BtnOdemeAl.Size = new System.Drawing.Size(196, 29);
             this.BtnOdemeAl.TabIndex = 6;
@@ -130,6 +134,14 @@
             // 
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ogridDataGridViewTextBoxColumn,
@@ -137,28 +149,22 @@
             this.ogrSoyadDataGridViewTextBoxColumn,
             this.ogrKalanBorcDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.borclarBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(385, 0);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Location = new System.Drawing.Point(456, -1);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(432, 276);
             this.dataGridView1.TabIndex = 7;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            // 
-            // yurtKayitDataSet2
-            // 
-            this.yurtKayitDataSet2.DataSetName = "YurtKayitDataSet2";
-            this.yurtKayitDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // borclarBindingSource
-            // 
-            this.borclarBindingSource.DataMember = "Borclar";
-            this.borclarBindingSource.DataSource = this.yurtKayitDataSet2;
-            // 
-            // borclarTableAdapter
-            // 
-            this.borclarTableAdapter.ClearBeforeFill = true;
             // 
             // ogridDataGridViewTextBoxColumn
             // 
@@ -187,6 +193,20 @@
             this.ogrKalanBorcDataGridViewTextBoxColumn.HeaderText = "OgrKalanBorc";
             this.ogrKalanBorcDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.ogrKalanBorcDataGridViewTextBoxColumn.Name = "ogrKalanBorcDataGridViewTextBoxColumn";
+            // 
+            // borclarBindingSource
+            // 
+            this.borclarBindingSource.DataMember = "Borclar";
+            this.borclarBindingSource.DataSource = this.yurtKayitDataSet2;
+            // 
+            // yurtKayitDataSet2
+            // 
+            this.yurtKayitDataSet2.DataSetName = "YurtKayitDataSet2";
+            this.yurtKayitDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // borclarTableAdapter
+            // 
+            this.borclarTableAdapter.ClearBeforeFill = true;
             // 
             // TxtKalan
             // 
@@ -228,13 +248,35 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Ödenen :";
             // 
+            // txtOdenenAy
+            // 
+            this.txtOdenenAy.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtOdenenAy.Location = new System.Drawing.Point(124, 205);
+            this.txtOdenenAy.Margin = new System.Windows.Forms.Padding(4);
+            this.txtOdenenAy.Name = "txtOdenenAy";
+            this.txtOdenenAy.Size = new System.Drawing.Size(240, 30);
+            this.txtOdenenAy.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(14, 210);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(108, 21);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Ödenen Ay :";
+            // 
             // FrmOdemeler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(817, 276);
+            this.ClientSize = new System.Drawing.Size(889, 351);
+            this.Controls.Add(this.txtOdenenAy);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.TxtKalan);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtOdenen);
@@ -249,15 +291,15 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmOdemeler";
             this.Text = "Ödemeler";
             this.Load += new System.EventHandler(this.FrmOdemeler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.borclarBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.yurtKayitDataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,5 +326,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox TxtOdenen;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtOdenenAy;
+        private System.Windows.Forms.Label label6;
     }
 }

@@ -61,6 +61,13 @@ namespace YurtKayitSistemi
             bgl.baglanti().Close();
             MessageBox.Show("Borç Ödendi");
             this.borclarTableAdapter.Fill(this.yurtKayitDataSet2.Borclar);
+
+            //Kasa Tablosuna Ekleme Yapma
+            SqlCommand komut2= new SqlCommand("insert into Kasa (OdemeAy,OdemeMiktar) values (@k1,@k2)", bgl.baglanti());
+            komut2.Parameters.AddWithValue("@k1", txtOdenenAy.Text);
+            komut2.Parameters.AddWithValue("@k2", TxtOdenen.Text);
+            komut2.ExecuteNonQuery();
+            bgl.baglanti().Close();
         }
     }
 }
