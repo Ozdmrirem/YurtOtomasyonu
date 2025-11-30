@@ -44,6 +44,11 @@ namespace YurtKayitSistemi
             SqlCommand komut = new SqlCommand("Select Sum(OdemeMiktar) from Kasa where OdemeAy=@p1", bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", cmbAy.Text);
             SqlDataReader oku = komut.ExecuteReader();
+            while (oku.Read())
+            {
+                LblAyKazanc.Text = oku[0].ToString();
+            }
+            bgl.baglanti().Close();
         }
     }
 }

@@ -47,6 +47,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmYoneticiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYoneticiDuzenle.Designer.cs">
+      <DependentUpon>FrmYoneticiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminGiris.Designer.cs">
+      <DependentUpon>FrmAdminGiris.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAnaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +147,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>YurtKayitDataSet4.xsd</DependentUpon>
     </Compile>
+    <Compile Include="YurtKayitDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YurtKayitDataSet5.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmYoneticiDuzenle.resx">
+      <DependentUpon>FrmYoneticiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminGiris.resx">
+      <DependentUpon>FrmAdminGiris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAnaForm.resx">
       <DependentUpon>FrmAnaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,6 +260,17 @@
     </None>
     <None Include="YurtKayitDataSet4.xss">
       <DependentUpon>YurtKayitDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="YurtKayitDataSet5.xsc">
+      <DependentUpon>YurtKayitDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="YurtKayitDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YurtKayitDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YurtKayitDataSet5.xss">
+      <DependentUpon>YurtKayitDataSet5.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

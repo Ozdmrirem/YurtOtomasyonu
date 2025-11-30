@@ -382,7 +382,7 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label1);
             this.Name = "FrmOgrDuzenle";
-            this.Text = "Öğrenci Düzenle";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.FrmOgrDuzenle_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

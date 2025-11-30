@@ -36,7 +36,7 @@
             this.LblPara = new System.Windows.Forms.Label();
             this.cmbAy = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.LblAyKazanc = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -82,15 +82,15 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Ay Seçin :";
             // 
-            // label3
+            // LblAyKazanc
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(701, 48);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(23, 28);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "0";
+            this.LblAyKazanc.AutoSize = true;
+            this.LblAyKazanc.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblAyKazanc.Location = new System.Drawing.Point(701, 48);
+            this.LblAyKazanc.Name = "LblAyKazanc";
+            this.LblAyKazanc.Size = new System.Drawing.Size(23, 28);
+            this.LblAyKazanc.TabIndex = 5;
+            this.LblAyKazanc.Text = "0";
             // 
             // label4
             // 
@@ -126,7 +126,7 @@
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(855, 520);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.LblAyKazanc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cmbAy);
@@ -150,7 +150,7 @@
         private System.Windows.Forms.Label LblPara;
         private System.Windows.Forms.ComboBox cmbAy;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label LblAyKazanc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }

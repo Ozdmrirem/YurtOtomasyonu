@@ -16,3 +16,6 @@ C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayit
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGider.resources
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGiderListesi.resources
 C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGiderGuncelle.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmGelirIstatistik.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmAdminGiris.resources
+C:\Users\irem\source\repos\YurtKayitSistemi\YurtKayitSistemi\obj\Debug\YurtKayitSistemi.FrmYoneticiDuzenle.resources
