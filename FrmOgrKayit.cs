@@ -57,24 +57,12 @@ namespace YurtKayitSistemi
                 komutkaydet.Parameters.AddWithValue("@p6", CmbBolum.Text);
                 komutkaydet.Parameters.AddWithValue("@p7", TxtMail.Text);
                 komutkaydet.Parameters.AddWithValue("@p8", CmbOdaNo.Text);
-                komutkaydet.Parameters.AddWithValue("@P9", TxtVeliAdSoyad.Text);
+                komutkaydet.Parameters.AddWithValue("@p9", TxtVeliAdSoyad.Text);
                 komutkaydet.Parameters.AddWithValue("@p10", MskVeliTelefon.Text);
                 komutkaydet.Parameters.AddWithValue("@p11", RchAdres.Text);
                 komutkaydet.ExecuteNonQuery();
                 bgl.baglanti().Close();
                 MessageBox.Show("Kayıt Başarılı Bir Şekilde Tamamlandı.");
-
-
-                //Öğrenci id yi Labele Çekme
-                SqlCommand komut = new SqlCommand("select Ogrid from Ogrenci", bgl.baglanti());
-                SqlDataReader oku = komut.ExecuteReader();
-                while (oku.Read())
-                {
-                    label11.Text = oku[0].ToString();
-                }
-                bgl.baglanti().Close();
-
-
 
                 //Öğrenci Borç Alanı Oluşturma
                 SqlCommand komutkaydet2 = new SqlCommand("insert into Borclar (Ogrid,OgrAd,OgrSoyad) values(@b1,@b2,@b3) ", bgl.baglanti());
@@ -83,13 +71,30 @@ namespace YurtKayitSistemi
                 komutkaydet2.Parameters.AddWithValue("@b3", txtOgrSoyad.Text);
                 komutkaydet2.ExecuteNonQuery();
                 bgl.baglanti().Close();
-
             }
             catch (Exception)
             {
                 MessageBox.Show("HATA! Lütfen tekrar deneyiniz.");
 
             }
+
+            //Öğrenci id yi Labele Çekme
+            SqlCommand komut = new SqlCommand("select Ogrid from Ogrenci", bgl.baglanti());
+            SqlDataReader oku = komut.ExecuteReader();
+            while (oku.Read())
+            {
+                label12.Text = oku[0].ToString();
+            }
+            bgl.baglanti().Close();
+
+
+            //Öğrenci Oda Kontenjanı Arttırma
+
+            SqlCommand komutoda = new SqlCommand("update Odalar set OdaAktif=OdaAktif+1 where OdaNo=@oda1", bgl.baglanti());
+            komutoda.Parameters.AddWithValue("@oda1", CmbOdaNo.Text);
+            komutoda.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
         }
     }
 }

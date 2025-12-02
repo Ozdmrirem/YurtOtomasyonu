@@ -109,22 +109,22 @@
             // öğrenciEkleToolStripMenuItem
             // 
             this.öğrenciEkleToolStripMenuItem.Name = "öğrenciEkleToolStripMenuItem";
-            this.öğrenciEkleToolStripMenuItem.Size = new System.Drawing.Size(228, 30);
+            this.öğrenciEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.öğrenciEkleToolStripMenuItem.Text = "Öğrenci Ekle";
             this.öğrenciEkleToolStripMenuItem.Click += new System.EventHandler(this.öğrenciEkleToolStripMenuItem_Click);
             // 
             // öğrenciListesiToolStripMenuItem
             // 
             this.öğrenciListesiToolStripMenuItem.Name = "öğrenciListesiToolStripMenuItem";
-            this.öğrenciListesiToolStripMenuItem.Size = new System.Drawing.Size(228, 30);
+            this.öğrenciListesiToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.öğrenciListesiToolStripMenuItem.Text = "Öğrenci Listesi";
             this.öğrenciListesiToolStripMenuItem.Click += new System.EventHandler(this.öğrenciListesiToolStripMenuItem_Click);
             // 
             // öğrenciDüzenleToolStripMenuItem
             // 
             this.öğrenciDüzenleToolStripMenuItem.Name = "öğrenciDüzenleToolStripMenuItem";
-            this.öğrenciDüzenleToolStripMenuItem.Size = new System.Drawing.Size(228, 30);
-            this.öğrenciDüzenleToolStripMenuItem.Text = "Öğrenci Düzenle";
+            this.öğrenciDüzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.öğrenciDüzenleToolStripMenuItem.Text = "Öğrenci Sil";
             this.öğrenciDüzenleToolStripMenuItem.Click += new System.EventHandler(this.öğrenciDüzenleToolStripMenuItem_Click);
             // 
             // bölümlerToolStripMenuItem
@@ -139,14 +139,14 @@
             // bölümEkleToolStripMenuItem
             // 
             this.bölümEkleToolStripMenuItem.Name = "bölümEkleToolStripMenuItem";
-            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.bölümEkleToolStripMenuItem.Text = "Bölüm Ekle";
             this.bölümEkleToolStripMenuItem.Click += new System.EventHandler(this.bölümEkleToolStripMenuItem_Click);
             // 
             // bölümDüzenleToolStripMenuItem
             // 
             this.bölümDüzenleToolStripMenuItem.Name = "bölümDüzenleToolStripMenuItem";
-            this.bölümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.bölümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.bölümDüzenleToolStripMenuItem.Text = "Bölüm Düzenle";
             this.bölümDüzenleToolStripMenuItem.Click += new System.EventHandler(this.bölümDüzenleToolStripMenuItem_Click);
             // 
@@ -161,7 +161,7 @@
             // ödemeAlToolStripMenuItem
             // 
             this.ödemeAlToolStripMenuItem.Name = "ödemeAlToolStripMenuItem";
-            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(178, 30);
             this.ödemeAlToolStripMenuItem.Text = "Ödeme Al";
             this.ödemeAlToolStripMenuItem.Click += new System.EventHandler(this.ödemeAlToolStripMenuItem_Click);
             // 
@@ -177,14 +177,14 @@
             // giderEkleToolStripMenuItem
             // 
             this.giderEkleToolStripMenuItem.Name = "giderEkleToolStripMenuItem";
-            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(192, 30);
             this.giderEkleToolStripMenuItem.Text = "Gider Ekle";
             this.giderEkleToolStripMenuItem.Click += new System.EventHandler(this.giderEkleToolStripMenuItem_Click);
             // 
             // giderİstatistikleriToolStripMenuItem
             // 
             this.giderİstatistikleriToolStripMenuItem.Name = "giderİstatistikleriToolStripMenuItem";
-            this.giderİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.giderİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(192, 30);
             this.giderİstatistikleriToolStripMenuItem.Text = "Gider Listesi";
             this.giderİstatistikleriToolStripMenuItem.Click += new System.EventHandler(this.giderİstatistikleriToolStripMenuItem_Click);
             // 
@@ -248,14 +248,14 @@
             // hesapMakinesiToolStripMenuItem
             // 
             this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
-            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.hesapMakinesiToolStripMenuItem.Text = "Hesap Makinesi";
             this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
             // 
             // paintToolStripMenuItem
             // 
             this.paintToolStripMenuItem.Name = "paintToolStripMenuItem";
-            this.paintToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.paintToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.paintToolStripMenuItem.Text = "Paint";
             this.paintToolStripMenuItem.Click += new System.EventHandler(this.paintToolStripMenuItem_Click);
             // 
@@ -266,40 +266,40 @@
             this.radyo2ToolStripMenuItem,
             this.radyo3ToolStripMenuItem});
             this.radyolarToolStripMenuItem.Name = "radyolarToolStripMenuItem";
-            this.radyolarToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyolarToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.radyolarToolStripMenuItem.Text = "Radyolar";
             // 
             // radyo1ToolStripMenuItem
             // 
             this.radyo1ToolStripMenuItem.Name = "radyo1ToolStripMenuItem";
-            this.radyo1ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo1ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo1ToolStripMenuItem.Text = "Radyo 1 ";
             this.radyo1ToolStripMenuItem.Click += new System.EventHandler(this.radyo1ToolStripMenuItem_Click);
             // 
             // radyo2ToolStripMenuItem
             // 
             this.radyo2ToolStripMenuItem.Name = "radyo2ToolStripMenuItem";
-            this.radyo2ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo2ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo2ToolStripMenuItem.Text = "Radyo 2";
             this.radyo2ToolStripMenuItem.Click += new System.EventHandler(this.radyo2ToolStripMenuItem_Click);
             // 
             // radyo3ToolStripMenuItem
             // 
             this.radyo3ToolStripMenuItem.Name = "radyo3ToolStripMenuItem";
-            this.radyo3ToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.radyo3ToolStripMenuItem.Size = new System.Drawing.Size(169, 30);
             this.radyo3ToolStripMenuItem.Text = "Radyo 3";
             this.radyo3ToolStripMenuItem.Click += new System.EventHandler(this.radyo3ToolStripMenuItem_Click);
             // 
             // hakkımızdaToolStripMenuItem
             // 
             this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.hakkımızdaToolStripMenuItem.Text = "Hakkımızda";
             // 
             // çıkışToolStripMenuItem
             // 
             this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
             this.çıkışToolStripMenuItem.Text = "Çıkış";
             // 
             // dataGridView1

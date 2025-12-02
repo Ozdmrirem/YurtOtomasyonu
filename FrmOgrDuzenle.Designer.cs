@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOgrDuzenle));
-            this.label1 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.BtnGuncelle = new System.Windows.Forms.Button();
             this.RchAdres = new System.Windows.Forms.RichTextBox();
@@ -56,22 +55,13 @@
             this.label13 = new System.Windows.Forms.Label();
             this.TxtOgrId = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
+            this.btnSil = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(537, 612);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(37, 504);
+            this.label12.Location = new System.Drawing.Point(38, 504);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(51, 16);
             this.label12.TabIndex = 48;
@@ -81,7 +71,7 @@
             // BtnGuncelle
             // 
             this.BtnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnGuncelle.Location = new System.Drawing.Point(262, 626);
+            this.BtnGuncelle.Location = new System.Drawing.Point(67, 635);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(220, 36);
             this.BtnGuncelle.TabIndex = 47;
@@ -349,6 +339,17 @@
             this.label14.TabIndex = 50;
             this.label14.Text = "Öğrenci Id:";
             // 
+            // btnSil
+            // 
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.Location = new System.Drawing.Point(317, 635);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(220, 36);
+            this.btnSil.TabIndex = 51;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            // 
             // FrmOgrDuzenle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -356,6 +357,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(641, 703);
+            this.Controls.Add(this.btnSil);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.TxtOgrId);
             this.Controls.Add(this.label12);
@@ -382,7 +384,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtOgrAd);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -395,8 +396,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button BtnGuncelle;
         private System.Windows.Forms.RichTextBox RchAdres;
@@ -423,5 +422,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox TxtOgrId;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btnSil;
     }
 }

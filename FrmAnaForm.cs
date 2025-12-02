@@ -71,7 +71,7 @@ namespace YurtKayitSistemi
 
         private void öğrenciDüzenleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmOgrDuzenle fr = new FrmOgrDuzenle();
+            FrmOgrListe fr = new FrmOgrListe();
             fr.Show();
         }
 

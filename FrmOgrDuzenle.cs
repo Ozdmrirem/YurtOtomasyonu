@@ -18,9 +18,25 @@ namespace YurtKayitSistemi
             InitializeComponent();
         }
         public string id,ad,soyad,TC,telefon,dogum,bolum;
-        public string mail,odaNo,veliAdSoyad,veliTelefon,adres;
+        public string mail, odaNo, veliAdSoyad, veliTelefon, adres;
 
         SqlBaglantim bgl = new SqlBaglantim();
+
+        //Öğrenci Silme 
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("Delete from Ogrenci where Ogrid=@k1", bgl.baglanti());
+            komut.Parameters.AddWithValue("@k1", TxtOgrId.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+            MessageBox.Show("Kayıt Silindi");
+
+            //Odanın Aktif Öğrenci Sayısını Azaltma
+            SqlCommand komutoda = new SqlCommand("update Odalar set OdaAktif=OdaAktif-1 where OdaNo=@oda", bgl.baglanti());
+            komutoda.Parameters.AddWithValue("@oda", CmbOdaNo.Text);
+            komutoda.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
         private void FrmOgrDuzenle_Load(object sender, EventArgs e)
         {
             TxtOgrId.Text = id;
@@ -64,7 +80,6 @@ namespace YurtKayitSistemi
 
                 MessageBox.Show("Hata! Kayıt Güncellenemedi.");
             }
-            
         }
     }
 }
