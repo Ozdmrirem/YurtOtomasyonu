@@ -91,5 +91,7 @@ namespace YurtKayitSistemi
                 MessageBox.Show("Hata");
             }
         }
+
+        
     }
 }

@@ -108,13 +108,13 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(12, 292);
+            this.chart1.Location = new System.Drawing.Point(12, 125);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
-            series1.Name = "Series1";
+            series1.Name = "Aylık";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(831, 216);
+            this.chart1.Size = new System.Drawing.Size(758, 294);
             this.chart1.TabIndex = 6;
             this.chart1.Text = "chart1";
             // 
@@ -124,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(855, 520);
+            this.ClientSize = new System.Drawing.Size(790, 461);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.LblAyKazanc);
             this.Controls.Add(this.label4);

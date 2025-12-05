@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOgrDuzenle));
-            this.label12 = new System.Windows.Forms.Label();
             this.BtnGuncelle = new System.Windows.Forms.Button();
             this.RchAdres = new System.Windows.Forms.RichTextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -57,16 +56,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.btnSil = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(38, 504);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 16);
-            this.label12.TabIndex = 48;
-            this.label12.Text = "label12";
-            this.label12.Visible = false;
             // 
             // BtnGuncelle
             // 
@@ -360,7 +349,6 @@
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.TxtOgrId);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.RchAdres);
             this.Controls.Add(this.label11);
@@ -396,7 +384,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button BtnGuncelle;
         private System.Windows.Forms.RichTextBox RchAdres;
         private System.Windows.Forms.Label label11;

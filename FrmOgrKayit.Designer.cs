@@ -66,23 +66,23 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Öğrenci Ad:";
             // 
-            // TxtOgrAd
+            // txtOgrAd
             // 
             this.txtOgrAd.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtOgrAd.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtOgrAd.Location = new System.Drawing.Point(247, 23);
             this.txtOgrAd.Margin = new System.Windows.Forms.Padding(4);
-            this.txtOgrAd.Name = "TxtOgrAd";
+            this.txtOgrAd.Name = "txtOgrAd";
             this.txtOgrAd.Size = new System.Drawing.Size(374, 30);
             this.txtOgrAd.TabIndex = 1;
             // 
-            // TxtOgrSoyad
+            // txtOgrSoyad
             // 
             this.txtOgrSoyad.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtOgrSoyad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtOgrSoyad.Location = new System.Drawing.Point(247, 60);
             this.txtOgrSoyad.Margin = new System.Windows.Forms.Padding(4);
-            this.txtOgrSoyad.Name = "TxtOgrSoyad";
+            this.txtOgrSoyad.Name = "txtOgrSoyad";
             this.txtOgrSoyad.Size = new System.Drawing.Size(374, 30);
             this.txtOgrSoyad.TabIndex = 3;
             // 
@@ -185,6 +185,7 @@
             this.CmbBolum.Name = "CmbBolum";
             this.CmbBolum.Size = new System.Drawing.Size(374, 32);
             this.CmbBolum.TabIndex = 12;
+            this.CmbBolum.SelectedIndexChanged += new System.EventHandler(this.CmbBolum_SelectedIndexChanged);
             // 
             // TxtMail
             // 
@@ -308,10 +309,11 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(109, 485);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(73, 24);
+            this.label12.Size = new System.Drawing.Size(71, 24);
             this.label12.TabIndex = 24;
-            this.label12.Text = "label12";
+            this.label12.Text = "label11";
             this.label12.Visible = false;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // FrmOgrKayit
             // 

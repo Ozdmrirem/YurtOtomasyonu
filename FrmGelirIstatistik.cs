@@ -37,6 +37,15 @@ namespace YurtKayitSistemi
                 cmbAy.Items.Add(oku2[0].ToString());
             }
             bgl.baglanti().Close();
+
+            // Grafiklere veri tabanından veri çekme
+            SqlCommand komut3 = new SqlCommand("Select OdemeAy, SUM(OdemeMiktar) from Kasa group by OdemeAy", bgl.baglanti());
+            SqlDataReader oku3 = komut3.ExecuteReader();
+            while (oku3.Read())
+            {
+                this.chart1.Series["Aylık"].Points.AddXY(oku3[0], oku3[1]);
+            }
+            bgl.baglanti().Close();
         }
 
         private void cmbAy_SelectedIndexChanged(object sender, EventArgs e)

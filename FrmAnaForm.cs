@@ -122,5 +122,11 @@ namespace YurtKayitSistemi
             FrmPersonel fr = new FrmPersonel();
             fr.Show();
         }
+
+        private void notEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmNotEkle fr = new FrmNotEkle();
+            fr.Show();
+        }
     }
 }

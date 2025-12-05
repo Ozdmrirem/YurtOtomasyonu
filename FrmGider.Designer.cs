@@ -54,7 +54,7 @@
             this.txtElektrik.Margin = new System.Windows.Forms.Padding(4);
             this.txtElektrik.Name = "txtElektrik";
             this.txtElektrik.Size = new System.Drawing.Size(374, 30);
-            this.txtElektrik.TabIndex = 3;
+            this.txtElektrik.TabIndex = 1;
             // 
             // label1
             // 
@@ -75,7 +75,7 @@
             this.txtSu.Margin = new System.Windows.Forms.Padding(4);
             this.txtSu.Name = "txtSu";
             this.txtSu.Size = new System.Drawing.Size(374, 30);
-            this.txtSu.TabIndex = 5;
+            this.txtSu.TabIndex = 2;
             // 
             // label2
             // 
@@ -96,7 +96,7 @@
             this.txtDogalgaz.Margin = new System.Windows.Forms.Padding(4);
             this.txtDogalgaz.Name = "txtDogalgaz";
             this.txtDogalgaz.Size = new System.Drawing.Size(374, 30);
-            this.txtDogalgaz.TabIndex = 7;
+            this.txtDogalgaz.TabIndex = 3;
             // 
             // label3
             // 
@@ -117,7 +117,7 @@
             this.txtInternet.Margin = new System.Windows.Forms.Padding(4);
             this.txtInternet.Name = "txtInternet";
             this.txtInternet.Size = new System.Drawing.Size(374, 30);
-            this.txtInternet.TabIndex = 9;
+            this.txtInternet.TabIndex = 4;
             // 
             // label4
             // 
@@ -138,7 +138,7 @@
             this.txtGida.Margin = new System.Windows.Forms.Padding(4);
             this.txtGida.Name = "txtGida";
             this.txtGida.Size = new System.Drawing.Size(374, 30);
-            this.txtGida.TabIndex = 11;
+            this.txtGida.TabIndex = 5;
             // 
             // label5
             // 
@@ -159,7 +159,7 @@
             this.txtPersonel.Margin = new System.Windows.Forms.Padding(4);
             this.txtPersonel.Name = "txtPersonel";
             this.txtPersonel.Size = new System.Drawing.Size(374, 30);
-            this.txtPersonel.TabIndex = 13;
+            this.txtPersonel.TabIndex = 6;
             // 
             // label6
             // 
@@ -180,7 +180,7 @@
             this.txtDiger.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiger.Name = "txtDiger";
             this.txtDiger.Size = new System.Drawing.Size(374, 30);
-            this.txtDiger.TabIndex = 15;
+            this.txtDiger.TabIndex = 7;
             // 
             // label7
             // 
@@ -199,7 +199,7 @@
             this.btnKaydet.Location = new System.Drawing.Point(260, 315);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(167, 33);
-            this.btnKaydet.TabIndex = 16;
+            this.btnKaydet.TabIndex = 8;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.UseVisualStyleBackColor = true;
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
